@@ -16,7 +16,13 @@ const Display = () => {
   const listItemStyle = {
     marginBottom: "10px",
     padding: "10px",
-    backgroundColor: "#f4f4f4",
+    background: "linear-gradient(45deg, blue, transparent)",
+    color: "white",
+    borderRadius: "16px",
+    boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+    WebkitBackdropFilter: "blur(3.2px)",
+    backdropFilter: "blur(3.2px)",
+    border: "1px solid rgba(255, 255, 255, 0.3)",
     borderRadius: "5px",
     display: "flex",
     justifyContent: "space-between",
@@ -33,7 +39,7 @@ const Display = () => {
               onClick={() => {
                 DeleteUser(index);
               }}
-              style={{ cursor: "pointer", color: "red" }}
+              style={{ cursor: "pointer", color: "red", width: "50px " }}
             />
           </li>
         );

@@ -5,7 +5,16 @@ const Navbar = () => {
   return (
     <Wrapper>
       <div>Welcome</div>
-      <h1>Admin Table</h1>
+      <h1
+        style={{
+          background: "linear-gradient(140deg, black, transparent)",
+          color: "white",
+          transition: "transform 3s",
+          transform: "scale(1.2)",
+        }}
+      >
+        Admin Table
+      </h1>
 
       <section>
         <div>One Destination for complete Web Development</div>
